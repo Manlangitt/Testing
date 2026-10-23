@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d1a">
+  <meta name="description" content="Charles Tare Booc — IT Student Portfolio">
+  <title>Charles Booc | Creative IT Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  
+  <header class="header">
+    <a class="logo" href="#home">CB<span>.</span></a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+    <label for="menu-toggle" class="menu-button" aria-label="Toggle navigation">
+      <span></span><span></span>
+    </label>
+
+    <nav class="navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a class="nav-contact" href="#contact">Let's connect ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="status-dot"></span> IT STUDENT · ASPIRING DEVELOPER</div>
+
+        <h1>
+          Hi, I'm Charles.<br>
+          <span class="gradient-text">I build things</span><br>
+          for the digital<br class="desktop-break"> world<span class="lime">.</span>
+        </h1>
+
+        <p class="hero-description">
+          A Bachelor of Science in Information Technology student who enjoys
+          exploring technology, building useful projects, and solving
+          real-world problems one idea at a time.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="button button-primary">Explore my work <span>↘</span></a>
+          <a href="#contact" class="button button-outline">Get in touch <span>↗</span></a>
+        </div>
+
+        <div class="hero-footer">
+          <span><i></i> Cebu, Philippines</span>
+          <span class="mono">OPEN TO LEARNING</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-orbit orbit-a"></div>
+        <div class="visual-orbit orbit-b"></div>
+        <div class="visual-orbit orbit-c"></div>
+
+        <div class="visual-glow"></div>
+
+        <div class="profile-frame">
+          <div class="frame-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span class="mono">charles.profile</span>
+            <span class="frame-star">✳</span>
+          </div>
+
+          <div class="profile-image-wrap">
+            <img
+              src="myphoto.png"
+              alt="Charles Booc profile portrait"
+              class="profile-image"
+            >
+          </div>
+
+          <div class="frame-bottom">
+            <span>CREATIVE MINDSET</span>
+            <span class="mono">CEBU · PH</span>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-one">
+          <span class="badge-icon">✳</span>
+          <span><strong>Curious mind</strong><small>Always exploring</small></span>
+        </div>
+
+        <div class="floating-badge badge-two">
+          <span class="badge-icon purple">✦</span>
+          <span><strong>Always improving</strong><small>One project at a time</small></span>
+        </div>
+
+        <div class="visual-caption mono">01 / CREATIVE DEVELOPER</div>
+      </div>
+
+      <a href="#about" class="scroll-cue"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <div class="eyebrow">01 — GET TO KNOW ME</div>
+        <h2>Learning today.<br><span class="muted">Building for tomorrow.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-art reveal">
+          <div class="about-monogram">CB<span>.</span></div>
+          <div class="about-ring ring-one"></div>
+          <div class="about-ring ring-two"></div>
+          <span class="about-code code-one">&lt;/&gt;</span>
+          <span class="about-code code-two">{ }</span>
+          <div class="about-label"><span class="status-dot"></span> STUDENT DEVELOPER</div>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="lead">
+            I'm an IT student interested in software, web development,
+            and practical technology solutions.
+          </p>
+
+          <p>
+            I enjoy turning ideas into projects, discovering new tools,
+            and improving through hands-on practice. My current work
+            includes web applications and an IoT-based irrigation system
+            designed around an agricultural need.
+          </p>
+
+          <p>
+            I believe every project is an opportunity to learn, solve
+            problems, and become a better developer.
+          </p>
+
+          <div class="fact-grid">
+            <div><span>01</span><strong>Keep learning</strong></div>
+            <div><span>02</span><strong>Build with purpose</strong></div>
+            <div><span>03</span><strong>Think creatively</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="section">
+        <div class="section-heading reveal">
+          <div class="eyebrow">02 — MY TOOLKIT</div>
+          <h2>Skills I'm <span class="gradient-text">growing.</span></h2>
+          <p class="section-subtitle">
+            Technologies and concepts I have been exploring through
+            coursework, personal practice, and projects.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-number">01</div>
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Web Development</h3>
+            <p>Responsive websites and interactive interfaces.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-number">02</div>
+            <div class="skill-icon">{ }</div>
+            <h3>Programming</h3>
+            <p>Programming logic, algorithms, and problem-solving.</p>
+            <div class="tags"><span>Python</span><span>Java</span><span>C++</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-number">03</div>
+            <div class="skill-icon">◈</div>
+            <h3>App Development</h3>
+            <p>Exploring mobile apps, backend systems, and data.</p>
+            <div class="tags"><span>Flutter</span><span>Firebase</span><span>Django</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-number">04</div>
+            <div class="skill-icon">⌘</div>
+            <h3>IT & Networking</h3>
+            <p>System setup, LAN configuration, and troubleshooting.</p>
+            <div class="tags"><span>Networking</span><span>LAN</span><span>Debugging</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-number">05</div>
+            <div class="skill-icon">✳</div>
+            <h3>UI/UX Design</h3>
+            <p>Designing clear layouts and user-friendly experiences.</p>
+            <div class="tags"><span>Figma</span><span>Wireframes</span><span>Responsive UI</span></div>
+          </article>
+
+          <article class="skill-card skill-feature reveal">
+            <div class="feature-star">✦</div>
+            <h3>Always learning.</h3>
+            <p>Open to feedback, new challenges, and opportunities to grow.</p>
+            <a href="#contact">Let's connect ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading project-heading reveal">
+        <div>
+          <div class="eyebrow">03 — SELECTED WORK</div>
+          <h2>Ideas made <span class="gradient-text">real.</span></h2>
+        </div>
+        <p class="section-subtitle">
+          Student projects and concepts that represent my learning journey.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card project-large reveal">
+          <div class="project-art art-cbflow">
+            <span class="art-index">PROJECT / 01</span>
+            <div class="sun"></div>
+            <div class="field"></div>
+            <div class="sensor">
+              <span>SOIL MOISTURE</span>
+              <strong>42<small>%</small></strong>
+              <div class="sensor-track"><i></i></div>
+              <small>Illustrative interface concept</small>
+            </div>
+            <span class="art-label">CBFLOW · IOT</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>CAPSTONE PROJECT</span><span>01 / 03</span></div>
+            <h3>CBFLOW</h3>
+            <p>
+              An IoT-based hybrid solar-powered automated irrigation system
+              concept for farmers in Brgy. Can-Asuhan, Carcar City, Cebu.
+              Focused on soil-moisture monitoring and automatic watering.
+            </p>
+            <div class="tags"><span>ESP32</span><span>IoT</span><span>Solar power</span><span>Irrigation</span></div>
+            <a class="project-link" href="#contact">Ask about this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-tickify">
+            <span class="art-index">PROJECT / 02</span>
+            <div class="ticket">
+              <div class="ticket-top"><span>EVENT PASS</span><span>NO. 0248</span></div>
+              <div class="ticket-main"><span>✳</span><strong>Make<br>memories.</strong></div>
+              <div class="ticket-bottom">DISCOVER · RESERVE · GO</div>
+            </div>
+            <span class="art-label">TICKIFY</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>WEB APPLICATION</span><span>02 / 03</span></div>
+            <h3>Tickify</h3>
+            <p>
+              An event reservation system concept with login, event search,
+              event details, and seat reservation workflows.
+            </p>
+            <div class="tags"><span>Django</span><span>HTML/CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="#contact">Ask about this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-gallery">
+            <span class="art-index">PROJECT / 03</span>
+            <div class="phone">
+              <div class="phone-top"></div>
+              <div class="phone-title">My Gallery <span>•••</span></div>
+              <div class="gallery-tiles">
+                <div>✦</div><div>◌</div><div>⌁</div><div>✳</div>
+              </div>
+              <div class="phone-nav">⌂　 ▦　 ♡　 ◉</div>
+            </div>
+            <span class="art-label">IMAGE GALLERY</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>MOBILE APPLICATION</span><span>03 / 03</span></div>
+            <h3>Philippine Presidents Gallery</h3>
+            <p>
+              A mobile gallery concept for displaying images and educational
+              information about Philippine presidents.
+            </p>
+            <div class="tags"><span>Flutter</span><span>Firebase</span><span>Mobile UI</span></div>
+            <a class="project-link" href="#contact">Ask about this project ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="project-note">
+        Note: Project artwork is illustrative. Add real screenshots and
+        working repository links when your projects are ready to share.
+      </p>
+    </section>
+
+    <section class="statement-section">
+      <div class="section statement-grid reveal">
+        <div class="statement-symbol">✳</div>
+        <div>
+          <div class="eyebrow">A MINDSET, NOT A FINISH LINE</div>
+          <h2>Not just learning code.<br><span class="muted">Learning how to think.</span></h2>
+        </div>
+        <p>
+          Every challenge helps me grow as a problem-solver. I'm excited
+          to create useful projects, learn from others, and become the
+          IT professional I aspire to be.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-orb"></div>
+        <div class="contact-main">
+          <div class="eyebrow"><span class="status-dot"></span> 04 — LET'S CONNECT</div>
+          <h2>Have an idea?<br><span class="gradient-text">Let's talk.</span></h2>
+          <p>
+            Open to learning, collaborating on student projects, and
+            connecting with people who love creating things.
+          </p>
+          <a class="button button-primary" href="mailto:charlestareb@gmail.com">Email me <span>↗</span></a>
+        </div>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <span>EMAIL ADDRESS</span>
+            <a href="mailto:charlestareb@gmail.com">charlestareb@gmail.com ↗</a>
+          </div>
+          <div class="contact-item">
+            <span>LOCATION</span>
+            <p>Cebu, Philippines</p>
+          </div>
+          <div class="contact-item">
+            <span>CURRENT FOCUS</span>
+            <p>IT studies · Web development · IoT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">CB<span>.</span></a>
+    <p>Designed with curiosity. Built while learning.</p>
+    <span class="mono">© <span id="year">2026</span> CHARLES TARE BOOC</span>
+    <a class="back-top" href="#home" aria-label="Back to top">↑</a>
+  </footer>
+
+  <script>
+    const progress = document.getElementById('scrollProgress');
+
+    window.addEventListener('scroll', () => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = `${max > 0 ? window.scrollY / max * 100 : 0}%`;
+    }, { passive: true });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
+
+    document.querySelectorAll('.navigation a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('menu-toggle').checked = false;
+      });
+    });
+  </script>
+</body>
+</html>
